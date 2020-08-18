@@ -1,0 +1,11 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.imooc.springboot2.context.AfterHelloWorldApplicationContextInitializer,\
+com.imooc.springboot2.context.HelloWorldApplicationContextInitializer
+
+org.springframework.context.ApplicationListener=\
+com.imooc.springboot2.listener.AfterHelloWorldApplicationListener,\
+com.imooc.springboot2.listener.HelloWorldApplicationListener,\
+com.imooc.springboot2.listener.BeforeConfigFileApplicationListener
+
+org.springframework.boot.SpringApplicationRunListener=\
+com.imooc.springboot2.run.HelloWorldRunListener
